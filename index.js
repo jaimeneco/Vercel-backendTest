@@ -18,7 +18,7 @@ app. use(express.urlencoded({extended: false})); // leer datos de urlEncoded con
 
 
 
-// Contenido estático:
+// Contenido estático: (hay que replicarlo en vercel)
 // app.use("origen", express.static)
 app.use("/uploads", express.static('public/uploads'));
 app.use("/web", express.static('public') );
